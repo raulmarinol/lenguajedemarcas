@@ -1,0 +1,10 @@
+<!ELEMENT relacion (persona+)>
+<!ELEMENT persona (sexo?,carnet)>
+<!ELEMENT sexo (#PCDATA)>
+<!ELEMENT carnet (#PCDATA)>
+<!ELEMENT persona (nombre,email+,parentesco+)>
+<!ELEMENT parentesco (tipo+)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT parentesco (tipo?)>
+<!ELEMENT tipo (#PCDATA)>

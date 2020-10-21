@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shiporder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:noNamespaceSchemaLocation="Ej.xsd">
+    <orderperson></orderperson>
+    <shipto>
+        <name>yo</name>
+        <address>calle pascual</address>
+        <city>murcia</city>
+        <country>murcia</country>
+    </shipto>
+    <item>
+        <title>algo</title>
+        <note>frafil</note>
+        <quantity>12</quantity>
+        <price>1.23</price>
+    </item>
+</shiporder>

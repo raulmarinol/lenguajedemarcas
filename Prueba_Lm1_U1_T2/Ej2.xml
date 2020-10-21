@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Libro SYSTEM "ej2.dtd">
+<Libro catalogo="infantil">
+    <Titulo>El Cid</Titulo> 
+    <Seccion>1</Seccion> 
+    <SubSeccion>32</SubSeccion> 
+    <Contenido capitulo="3">
+        
+        <materia>nose</materia>
+    </Contenido> 
+    <tema>Aventuras</tema>
+        <Copyright>123548ko</Copyright>
+</Libro>
