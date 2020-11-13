@@ -1,0 +1,55 @@
+table{
+    border-collapse: collapse;
+}
+td,th{
+    border: 1px solid black;
+}
+
+thead th, thead td {
+    color:white;
+    background-color: green;
+
+}
+.bd {
+    background-color: hotpink;
+}
+.prog{
+    background-color: blue;
+}
+.ende{
+    background-color: pink;
+}
+.si{
+    background-color: red;
+    text-align: center;
+}
+.fol{
+    background-color: silver;
+}
+.lm{
+    background-color: slateblue;
+}
+
+#break{
+    background-color: yellow;
+    padding: 1rem;
+    text-align: center;
+    font-weight: bolder;
+
+}
+
+#break{
+    background-color: lawngreen;
+    text-align: center;
+    font-weight: bolder;
+    padding: 1rem;
+}
+
+.bd, .ende, .fol, .lm, .prog, .si{
+    padding: 0.5rem;
+}
+tbody td:nth-child(1){
+    background-color: turquoise;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
