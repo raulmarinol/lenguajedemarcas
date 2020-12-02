@@ -1,0 +1,23 @@
+/* Body */
+body {background-color: tan}
+aplica el color en este casoa toda la paquina(body)
+
+/* Headers */
+h1 {color:maroon; font-size:20pt}
+Pone letra de este color y le da este tamaño de letra 
+
+/* HR (Hard Rule = line) */
+hr {color:navy}
+En los semapadores te los pone de este color azul.
+
+/* Paragraphs */
+p {font-size:12pt; margin-left: 15px} Que estos en estos parrafos con letra de tamaño 12pt y con un margen aa la izquierda de 15 px
+p.verse {color:maroon; margin-left: 60px} Que el color de la letra sea color marron y margen a la izquierda de 60px
+
+/* Divs */
+
+/* Links */
+a:link     {color:green} Que los link te los pinte en verde
+a:visited  {color:yellow} Que los link visitadso te los muestre en ammrrillo
+a:hover    {color:black} Que los link flotantes aparezca en negro
+a:active   {color:blue} Que los link activos aparzcan en azul

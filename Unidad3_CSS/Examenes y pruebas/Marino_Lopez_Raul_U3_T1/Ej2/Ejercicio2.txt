@@ -1,0 +1,1 @@
+Por que los dos primeros tienen aplicado la clase verse en el parrafo, mientras que los otros no. 
