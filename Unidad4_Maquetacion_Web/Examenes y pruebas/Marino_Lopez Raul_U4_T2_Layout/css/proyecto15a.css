@@ -1,0 +1,213 @@
+/* BOX-SIZING para calcular directamente todas las dimensiones de las cajas */
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+         box-sizing: border-box;
+  }
+/* RESETEO LIMITADO DE PROPIEDADES */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0px;    
+}
+
+.bordeBajo{
+    width: 30%;
+    border-bottom:8px solid rgb(146, 146, 187) ;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    
+}
+
+.container{
+    background-image: url(../img/conferencia.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    margin: 0%;
+    
+   
+}
+
+.izquierda{
+    display:inline-block;  
+    width: 45%;
+    height: 90%;
+    margin: 2%;
+    
+}
+
+.derecha{
+    display:inline-block;
+    background-color: white;
+    width: 48%;
+    height: 70%;     
+    position: absolute;
+    bottom: 0;       
+}
+
+.dentro{    
+    display:inline-block;
+    position: relative;
+    background-color: white;
+    opacity: 0.8;
+    width: 100%;
+    height: 42%;
+    margin-top: 5%;
+    padding: 10px;
+}
+.infor1{
+    position: absolute;
+    width: 8%;
+    margin-left: 88%;
+    margin-top: 0%;
+}
+
+.bajo{
+    display: inline-block;
+    position: relative;
+    margin-top: 2%;
+    width: 100%;
+    height: 40%;
+    
+}
+
+.reloj{
+    position: absolute;
+    width: 10%;
+}
+
+.parte1{
+    display: inline-block;
+    width:30%;
+    height:100%;
+    margin-left: 15%;
+    border-right: 3px solid black;    
+}
+
+.parte2{
+    display: inline-block;
+    width:30%;
+    height:100%;
+    text-align: left;
+    margin-left: 15%;
+    
+}
+
+.parte3{
+    display: inline-block;
+    width: 0%;
+    height: 50%;
+    border-left: 3px solid black;
+}
+
+header{
+    display: inline-block;
+    width: 100%;
+    height: 10%;
+    background-color: black;
+    color: white;
+    padding-top: 3px;
+    padding-left: 5px;
+}
+
+.contacta{
+    display: inline-block;
+    margin-left: 5%;
+    padding: 1rem;
+    width: 100%;
+    height: 20%;
+}
+
+.foto img{
+    
+    float: left;
+    width: 10%;
+    height: 10%;
+    padding-top: 20px;
+}
+
+.text1{
+    float: left;
+    width:60%;
+    height:100%;
+    margin: 20px;  
+    
+}
+
+.texto{
+    display: inline-block;
+    position: relative;
+    margin-top: 2%;
+    width: 90%;
+    height: 35%;
+    margin-left: 5%;    
+    background-color: beige;
+}
+
+.texto p{
+    text-align: left;
+    margin: 10px;
+}
+
+.boton1{
+    position: absolute;
+    width: 15%;
+    height: 10%;
+    right: 0;
+    bottom: 6%;
+}
+
+.boton{ 
+    text-decoration: none;
+    padding: 4%;
+    font-weight: 20%;
+    font-size: 80%;
+    color: white;
+    background-color: #2e302e;
+    border-radius: 5px;   
+}
+.arrow_box {
+    display: inline-block;
+    position: relative;
+    width: 90%;
+    padding: 2%;
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 5%;
+    background: #88b7d5;
+    border-radius: 15px;
+    margin-bottom: 1rem;
+}
+.arrow_box:after, .arrow_box:before {
+	bottom: 100%;
+	left: 6%;
+	border: solid transparent;
+	content: "";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.arrow_box:after {
+	border-color: rgba(136, 183, 213, 0);
+	border-bottom-color: #88b7d5;
+	border-width: 15px;
+	margin-left: -15x;
+}
+
+footer{
+    width: 98%;
+    text-align: right;
+    padding-right: 10%;
+    color: #a3a6a8; 
+    
+}
+
