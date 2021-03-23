@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Examen Responsive 13/03/2020</title>
+    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <i class="fa fa-bars"></i>
+            <div>
+                <img src="img/logo.png">
+                <nav>
+                    <ul>
+                        <li class="opcionMenu">Home</li>
+                        <li class="opcionMenu">Designers</li>
+                        <li class="opcionMenu">Blog</li>
+                        <li class="opcionMenu">Podcast</li>
+                        <li class="opcionMenu">Hiring</li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="final">                
+                <form class="from_header">
+                    <label for="search">Search</label>
+                    <input id="search" type="search">
+                </form>
+            </div>
+        </header>
+        <main>
+            <h2>What are you working on?<span>Dribble is where designers get inspired and hired</span></h2>
+            <section class="section_1">
+                <form class="from_main">
+                    <label for="username">Username</label>
+                    <input id="username" type="text" required />
+                    <label for="email">Email</label>
+                    <input id="email" type="text" required />
+                    <button>Sign Up for Dribble</button>
+                </form>
+            </section>
+            <h2 class="negro">Looking to hire a new designer? <a href="#"">Lear more</a></h2>
+        </main>
+        <section class="section_2">
+            <div class="imagenes">
+                <img src="img/img1.png">
+                <div>
+                    <i class="fa fa-heart"></i>Like
+                </div>
+            </div>
+            <div class="imagenes">
+                <img src="img/img2.png">
+                <div>
+                    <i class="fa fa-heart"></i>Like
+                </div>
+            </div>
+            <div class="imagenes">
+                <img src="img/img3.png">
+                <div>
+                    <i class="fa fa-heart"></i>Like
+                </div>
+            </div>
+            <div class="imagenes">
+                <img src="img/img4.png">
+                <div>
+                    <i class="fa fa-heart"></i>Like
+                </div>
+            </div>
+            <div class="imagenes">
+                <img src="img/img5.png">
+                <div>
+                    <i class="fa fa-heart"></i>Like
+                </div>
+            </div>
+            <div class="imagenes">
+                <img src="img/img6.png">
+                <div>
+                    <i class="fa fa-heart"></i>Like
+                </div>
+            </div>
+            <div class="imagenes">
+                <img src="img/img7.png">
+                <div>
+                    <i class="fa fa-heart"></i>Like
+                </div>
+            </div>
+            <div class="imagenes">
+                <img src="img/img8.png">
+                <div>
+                    <i class="fa fa-heart"></i>Like
+                </div>
+            </div>
+        </section>
+    </div>
+    <script>
+        $(function () {
+            $(".fa").click(function () {
+                $(".opcionMenu").toggle();
+            });
+            $(window).resize(function () {
+                var anchura = $(this).width();
+                if (anchura > 992) {
+                    $(".opcionMenu").show();
+                }
+            });
+        });
+    </script>
+</body>
+</html>
