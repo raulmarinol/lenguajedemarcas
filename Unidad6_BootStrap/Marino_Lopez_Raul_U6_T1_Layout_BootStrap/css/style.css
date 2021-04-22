@@ -1,0 +1,39 @@
+header{
+  background-color: rgb(149, 151, 151);   
+}
+
+header img{
+height: 100px;          
+}
+
+.imagen{
+height: 200px;
+}
+
+.imagen img{
+height: 200px;
+width: 100%;
+} 
+
+.centrado{
+left: 60%;
+top: 60%;
+transform: translate(-50%, -50%);
+}
+
+h1,h2{
+color: rgb(192, 51, 192);
+} 
+
+h1{
+font-size: 6vw;
+} 
+
+h4{
+font-size: 2vw;
+}
+
+hr{
+  background-color: rgb(149, 151, 151);
+  height: 3px;
+  }
