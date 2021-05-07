@@ -1,0 +1,26 @@
+/// Propiedades para que funcione en todos los navegadores
+* {
+    box-sizing: border-box;
+}
+
+@include reset;
+
+.container{   
+    @include centrado(10px,80%);
+    background-color: $dark-theme;
+  }
+  
+  @for $i from 1 to 5 {
+      .section-title-#{$i}{
+          color: colorSectionTile($i)
+      }
+  }
+
+  .section__list-item{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      width: 60%;
+      
+  }
+  

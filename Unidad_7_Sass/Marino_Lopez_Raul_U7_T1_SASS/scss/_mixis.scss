@@ -1,0 +1,20 @@
+/// Mixin para resetear p,h1,h2,h4,h5,h6 a margen 0.
+///@group mixin
+
+
+@mixin reset { 
+    h1{
+        p,h1,h2,h4,h5,h6{
+            margin: 0px;
+        }
+    }    
+}
+
+/// Mixin para resetear p,h1,h2,h4,h5,h6 a margen 0.
+///@group mixin
+
+@mixin centrado($margin,$anchura){
+    margin: $margin auto;
+    width: $anchura;
+
+}

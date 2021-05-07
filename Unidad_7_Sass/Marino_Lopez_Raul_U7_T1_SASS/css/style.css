@@ -1,0 +1,54 @@
+.container {
+  background-color: #000;
+  color: #b6b3b3;
+  padding: 30px;
+}
+
+.section .section__title {
+  border-bottom: black 1px solid;
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+}
+.section .section__title .name {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1 p, h1 h1, h1 h2, h1 h4, h1 h5, h1 h6 {
+  margin: 0px;
+}
+
+.container {
+  margin: 10px auto;
+  width: 80%;
+  background-color: true;
+}
+
+.section-title-1 {
+  color: #0f0;
+}
+
+.section-title-2 {
+  color: #00f;
+}
+
+.section-title-3 {
+  color: orange;
+}
+
+.section-title-4 {
+  color: #ccc;
+}
+
+.section__list-item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 60%;
+}
+
+/*# sourceMappingURL=style.css.map */

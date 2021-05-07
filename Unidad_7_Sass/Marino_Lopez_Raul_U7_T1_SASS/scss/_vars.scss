@@ -1,0 +1,25 @@
+/// Colores para los fondos
+/// @group colores
+$light-theme: false;
+$dark-theme: true;
+
+///Para controlar el for
+///@group while
+$num: 1;
+
+///Lista de colores para CV
+///@group colores
+
+$color-list: #0f0, #00f, orange, #ccc;
+
+.container{
+    @if $light-theme  {
+      background-color: rgb(158, 156, 156);
+      color: #000;
+    } @else if $dark-theme {
+      background-color: #000;
+      color: rgb(182, 179, 179);
+    }
+    padding: 30px;
+  }
+
