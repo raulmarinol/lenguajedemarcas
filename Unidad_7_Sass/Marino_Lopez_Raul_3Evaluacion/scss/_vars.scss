@@ -1,0 +1,21 @@
+/// Color de fondo del Header
+/// Parámetros que se aplicará al utilizar la Versión Dark o la Versión Light
+/// @group colores
+$dark-theme: false;
+$color: black;
+$background-color:rgb(174, 174, 182);
+
+/// Si está activo la Versión Dark, tomará los siguientes valores
+@if $dark-theme {
+    $color: rgb(174, 174, 182);;
+    $background-color: black;
+}
+
+///Color de fondo de la celda cuando pasamos el raton por encima
+/// @group colores
+$encima: red;
+
+///Mapa para cojer el tamaño de las letras
+
+$tam:("xs":1, "s":2,"m":3,"lg":4,"xl":5);
+

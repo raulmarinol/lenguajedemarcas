@@ -1,0 +1,19 @@
+///Funcion que se utiliza para darle el tamaño apropiado a cada parrofo pasandole un mapa
+/*
+@function fontSizes($tam){
+    @each $k,$v in $tam {   
+        .font-#{$k} {
+            font-size: ($v*16)+"px";      
+      }  
+    } 
+
+}
+
+@each $k,$v in $tam {
+    .font-#{$k} {
+        font-size: ($v*16)+"px";
+    }
+}
+*/
+
+

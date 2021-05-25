@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+
+img{
+    width: 10%;
+}
+
+.container {
+    @include centrado(10, 80);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+

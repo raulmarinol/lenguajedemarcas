@@ -1,0 +1,17 @@
+.table{
+    width: 70%;
+    border: 1px solid black;
+        .header{
+            width: 100%;
+                p{
+                    width: 33%;
+                    align-items: center;
+                }
+        }
+        .row{
+            width: 33%;
+                &:Hover{
+                    background-color: $encima; 
+                }
+        }
+}

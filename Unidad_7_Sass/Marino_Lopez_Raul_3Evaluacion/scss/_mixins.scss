@@ -1,0 +1,30 @@
+/// Mixin al que se le pasa la Anchura y el Margen como parámetro y pones estos valores como Margen y Anchura
+/// @parameter {margin} $margin
+/// @parameter {width} $width
+@mixin centrado($margin, $width) {
+    margin: #{$margin}+"px"auto;
+    width: #{$width}+"%";
+}
+
+/// Mixin al que se le pasa la posicion la anchuraaltura color de fondo y el color del borde
+/// @parameter {margin} $position
+/// @parameter {width} $width
+/// @parameter {margin} $height
+/// @parameter {width} $color
+/// @parameter {margin} $background-color
+/// @parameter {width} $border-color
+
+@mixin placeSideBar($position,$width,$height,$color,$dark-theme){
+    
+    @if $dark-theme{
+        float: left ;
+        width: $width;
+        height: $height;
+    }@else{
+        float: right;
+        width: $width;
+        height: $height;
+    }
+    
+        
+}
